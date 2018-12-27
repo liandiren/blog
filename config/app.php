@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'PRC',
 
     /*
     |--------------------------------------------------------------------------
@@ -77,8 +77,8 @@ return [
     | will not be safe. Please do this before deploying an application!
     |
     */
-
-    'key' => env('APP_KEY', 'SomeRandomString'),
+    //php artisan key:generate
+    'key' => env('APP_KEY', 'z2MsvhlWzXYqJUkzHee6H2o2HlXaJeGT'),
 
     'cipher' => 'AES-256-CBC',
 
